@@ -1,0 +1,1519 @@
+.bx-wrapper img {
+    max-width: 100%;
+    display: block;
+    margin: auto !important;
+}
+.movie{
+	display:inline-flex;
+	margin: 0 10px;
+}
+.post-lank-box {
+    width: 100%;
+    height: 331px;
+    padding: 29px 0 0 0;
+    
+}
+.post-lank ol, .post-lank ul{
+	list-style: none;
+}
+.post-lank-box .inner-wrap {
+    position: relative;
+}
+.inner-wrap {
+    width: 1000px;
+    margin: 0 auto;
+}.inner-wrap:after, .inner-wrap:before {
+    content: '';
+    display: table;
+}h2.tit {
+    padding: 0 0 26px 0;
+    font-size: 1.8666em;
+    font-weight: 400;
+    letter-spacing: -1px;
+    line-height: 1.1;
+    color: #222;
+}.post-lank-box .post-lank {
+    float: left;
+    height: 194px;
+    margin: 0 0 0 -33px;
+    list-style: none;
+}.post-lank-box .post-lank li {
+    position: relative;
+    float: left;
+    margin-left: 33px;
+}.post-lank-box .post-lank li a {
+    display: block;
+    width: 135px;
+    height: 194px;
+}.post-lank-box .post-lank li a .lank {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 3;
+    font-size: 1.6em;
+    line-height: 1em;
+    color: #fff;
+    font-family: Roboto;
+    font-weight: 300;
+    font-style: italic;
+}
+.post-lank-box p {
+    margin: 0;
+    padding: 0;
+}.post-lank-box .post-lank li a .post-count {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 135px;
+    height: 122px;
+    padding-top: 73px;
+    background-color: rgba(0,0,0,.6);
+    text-align: center;
+}.post-lank-box .post-lank li a .post-count .tit {
+    font-size: .8667em;
+    line-height: 1.1;
+    color: #fff;
+}.post-lank-box .post-lank li a .post-count .count {
+    font-size: 2.1333em;
+    font-family: Roboto;
+    color: #fff;
+    font-weight: 300;
+}.post-lank-box .post-lank li a .img img {
+    width: 135px!important;
+    height: 194px!important;
+}
+
+
+.post-lank-box .mypost-box {
+    position: relative;
+    float: left;
+    width: 135px;
+    height: 194px;
+    margin: 0 0 0 58px;
+}
+.post-lank-box .mypost-box .post-count .tit {
+    font-size: .8667em;
+    line-height: 1.1;
+    color: #fff;
+}.post-lank-box .mypost-box .post-count {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 135px;
+    height: 122px;
+    padding-top: 73px;
+    background-color: rgba(0,0,0,.6);
+    text-align: center;
+}
+
+.post-lank-box .mypost-box .lank {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 3;
+    font-size: 1.6em;
+    line-height: 1em;
+    color: #fed143;
+    font-family: Roboto;
+    font-weight: 300;
+    font-style: italic;
+}.post-lank-box .mypost-box .post-count .count {
+    font-size: 2.1333em;
+    color: #fff;
+}.post-lank-box .mypost-box .post-count .tit {
+    font-size: .8667em;
+    line-height: 1.1;
+    color: #fff;
+}
+.post-lank-box .add-post {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.post-lank-box .add-post a {
+    width: 123px;
+    padding: 8px 9px;
+    line-height: 36px;
+    border: 0;
+    background: #9c7c07;
+    color: #fff;
+    font-size: 15px;
+    font-family: NanumBarunGothic,Dotum,'돋움',sans-serif;
+}
+.lank{
+	 position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 3;
+	font-size: 1.8em;
+	line-height: 1em;
+	color: #fff;
+	font-family: Roboto;
+	font-weight:bold;
+	font-style: italic;
+       }
+       .movie .movie-img-wrapper{
+	position: relative;
+	z-index: 99;
+}
+.movie .post-count{
+	position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 179px;
+    height: 154px;
+    padding-top: 101px;
+    background-color: rgba(0,0,0,.6);
+    text-align: center;
+    display: none;
+}
+.movie .post-count .tit input{
+	padding: 5px 46px;
+    background: none;
+    color: white;
+    border: 1px solid #fff;
+    margin: 4px 0;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.movie a img{
+	cursor: pointer;
+	border:1px solid white;
+}
+#backgroundWrap{
+   height: 800px;
+    opacity: 0.8;
+    background: url(../images/theater04.png) 0% 0% / cover;
+}
+.backgroundWraper{
+	background: rgba(26,26,26,.95);margin-top: -1px;
+}
+.todayPrice{
+	text-align: center;
+    /* position: relative;
+    bottom: 258px; */
+    position:absolute;
+    bottom: 42px;
+    left: 455px;
+    height: 301px;
+}
+.onTitle{
+   
+         position: absolute;
+    top: 152px;
+    left: 483px;
+    background: url(../images/mainBack.png) no-repeat;
+    padding: 219px 476px;
+    background-size: 972px;
+}
+.onTitle p, .onTitle p span{
+	font-size:25px ;
+    color: white;
+    text-align: center;
+   /*  font-family: cursive; */
+}
+.onTitle_p{
+	/* margin-bottom: 65px; */
+	margin: 80px -65px 54px -65px;
+}
+.onTitle p span{
+	color: #F94F4F;
+}
+.mod{
+	position: absolute;
+    top: 595px;
+    left: 465px;
+    color: white;
+}
+.section01 {
+	width:100%;
+}
+
+.section02{
+	width: 75%;
+	margin: auto;
+	
+}
+
+#movieTit{
+	margin: 50px 0;
+	font-size: 26px;
+    text-align: center;
+}
+#movieTit span{
+	margin: 0 50px;
+}
+
+#movieTit .active{
+	border-bottom: 4px solid black;
+}
+.swiper-container {
+	position:static !important;;
+      width: 93% !important;
+    }
+	
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+	 width: 280px !important;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      background: url(../images/gnb-bg.png);
+    }
+    .swiper-wrapper{
+    	height: 44% !important;
+    }
+    .swiper-button-next, .swiper-button-prev{
+    	right: 0px !important;
+    	background-size: 30px;
+    	top: 37% !important;
+    }
+.swiperImg:hover{
+   		 transform:scale(1.1);            /* 이미지 확대 */
+
+   transition: transform .5s; 	/*  시간 설정  */
+   z-index: 5;
+   }
+   
+
+  .main_event {
+  padding: 0px 0 120px;
+  line-height: 1;
+  /* background-image: linear-gradient( rgba(235,159,137, 1), rgb(246,235,201)); */
+ background: #000;
+ /*  margin-top:10%; */
+ }  
+ 
+
+ .main_event .main_title {
+    color: #2b2b2b;
+    height: 200px;
+ }
+ 
+ .main_area .main_title {
+     display: block;
+    font-size: 40px;
+    line-height: 1;
+    text-align: center;
+    color: #2b2b2b;
+    font-family: nanumEB, '맑은 고딕','Malgun Gothic','Helvetica','Apple SD Gothic Neo',AppleGothic,'돋움',Dotum,'굴림',Gulim,Helvetica,sans-serif;
+ }
+ 
+ .lay_inner {
+    margin: auto;
+    width: 1200px;
+ }
+ 
+ .main_event .event_area {
+    font-size: 0;
+    text-align: center;
+ }
+ 
+ .main_event.motion .eve_img_box:nth-child(1) {
+    transform: scale(1);
+    opacity: 1;
+    transition: transform .6s, opacity .6s;
+    transition-delay: .3s;
+ }
+ 
+ .main_event .eve_img_box.big:first-child {
+  margin-left: 0;
+ }
+ 
+ .main_event .eve_img_box.big {
+    margin: 0 0 0 30px;
+    width: calc((100% - 30px) / 2);
+    overflow: hidden;
+ }
+ 
+ .main_event .eve_img_box {
+    margin: 30px 30px 0 0;
+    display: inline-block;
+    width: calc((100% - 60px) / 3);
+    vertical-align: top;
+    box-shadow: 0 0 10px 3px rgb(0 0 0 / 10%);
+    transform: scale(.7);
+    opacity: 0;
+    transition: transform .3s, opacity .3s;
+    overflow: hidden;
+    border-radius: 20px;
+ }
+ 
+ .main_event .eve_img_box.big img {
+   width:100%;
+ }
+ 
+ .main_event .eve_img_box img {
+  width:100%;
+ }
+ 
+ .main_event.motion .eve_img_box:nth-child(2) {
+    transform: scale(1);
+    opacity: 1;
+    transition: transform .9s, opacity .9s;
+    transition-delay: .5s;
+ }
+ 
+ .main_event.motion .eve_img_box:nth-child(3) {
+     transform: scale(1);
+    opacity: 1;
+    transition: transform .9s, opacity .9s;
+    transition-delay: 0.8s;
+ }
+ 
+ .main_event.motion .eve_img_box:nth-child(4) {
+     transform: scale(1);
+    opacity: 1;
+    transition: transform .9s, opacity .9s;
+    transition-delay: 1.2s;
+ }
+ 
+ .main_event.motion .eve_img_box:nth-child(5) {
+    transform: scale(1);
+    opacity: 1;
+    transition: transform .9s, opacity .9s;
+    transition-delay: 1.5s;
+ }
+ 
+ .main_event .eve_img_box:last-child {
+     margin-right: 0;
+ }
+ 
+ 
+ .tit_text {
+ 	text-align: center;
+    margin: 50px 0;
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: underline;
+ }
+
+ .snackImg table{
+        padding: 0 60px;
+    width: 1400px;
+    background: url(../images/saleBack1.png) no-repeat;
+    height: 450px;
+    margin: auto;
+    background-size: 1400px 553px;
+    background-position-y: -55px;
+    }
+   .snackImg table td input[type=checkbox]{
+   		width: 22px;
+   		height: 22px;
+   }
+    .stext{
+    	font-size: 22px;
+    	line-height: 42px;
+    	color: white;
+    	margin-left: 2px;
+    }
+ .snackImg table td{
+  	padding:0 6px;
+  	text-align: center;
+ }
+ 
+ 
+ .mainNotice{
+ 	position: relative;
+    padding-bottom: 26px;
+    line-height: 1;
+    border-bottom: 2px solid #2b2b2b;
+    color: #2b2b2b;
+ }
+ .notice_tit{
+ 	font-weight: bold;
+ 	font-size: 24px;
+    vertical-align: middle;
+    font-family: nanumEB, '맑은 고딕','Malgun Gothic','Helvetica','Apple SD Gothic Neo',AppleGothic,'돋움',Dotum,'굴림',Gulim,Helvetica,sans-serif;
+ }
+ .notice_tit2{
+ 	margin-left: 30px;
+    font-size: 16px;
+ }
+ .notice_tit3{
+ 	display: block;
+    width: 20px;
+    height: 20px;
+    background: url(//movie-img.yes24.com/NYes24/new/all_sprite.png) no-repeat -580px -119px;
+    font-size: 0;
+    text-indent: -9999px;
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+ }
+ 
+ 
+ 
+ 
+ .main_title {
+    display: block;
+    font-size: 40px;
+    line-height: 1;
+    text-align: center;
+    color: #2b2b2b;
+    font-weight: bold;
+    font-family: nanumEB, '맑은 고딕','Malgun Gothic','Helvetica','Apple SD Gothic Neo',AppleGothic,'돋움',Dotum,'굴림',Gulim,Helvetica,sans-serif;
+}
+.best_down_area {
+    position: relative;
+    margin-top: 50px;
+    height: 450px;
+    background: #000;
+}
+.best_down_area .bd_thumb {
+    position: relative;
+    top: 50%;
+    max-height: 483px;
+    overflow: hidden;
+    transform: translate3d(0, -50%, 0);
+}
+.best_down_area .bd_thumb a {
+    display: block;
+}
+.best_down_area .bd_thumb a:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,.8));
+    height: 250px;
+}
+.best_down_area .bd_thumb img {
+    width: 79%;
+}
+.best_down_area .txt_box {
+    position: absolute;
+    bottom: calc(80% / 8);
+    left: 50px;
+    line-height: 1;
+    color: #fff;
+}
+.best_down_area .txt_box .bd_type {
+    margin-bottom: 20px;
+    font-size: 0;
+}
+.best_down_area .txt_box .bd_type > span {
+    padding-bottom: 5px;
+    display: inline-block;
+    font-size: 18px;
+    vertical-align: top;
+    border-bottom: 1px solid #fff;
+    color: white;
+}
+.best_down_area .txt_box .bd_tit {
+	color:white;
+    font-size: 40px;
+    font-family: nanumB, '맑은 고딕','Malgun Gothic','Helvetica','Apple SD Gothic Neo',AppleGothic,'돋움',Dotum,'굴림',Gulim,Helvetica,sans-serif;
+}
+.best_down_area .bd_thumb:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 300px;
+    width: 200px;
+    display: block;
+    background-image: -ms-linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1));
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1));
+    z-index: 3;
+}
+.best_down_area .bd_down_list {
+    position: absolute;
+    top: -18px;
+    right: 0px;border-left: 6px solid white;
+}
+.main_best_download.motion .bd_down_list a:nth-child(1) {
+    transform: scale(1) translate(0, 0);
+    opacity: 1;
+    transition: transform .6s, opacity .6s;
+    transition-delay: .3s;
+}
+.best_down_area .bd_down_box {
+    position: relative;
+    margin-bottom: 8px;
+    width: 379px;
+    height: 156px;
+    overflow: hidden;
+    border: 0px solid rgba(242, 242, 242, .15);
+    background: #000;
+}
+.best_down_area .bd_down_box img{
+	width: 392px;
+}
+.best_down_area .bd_info_box {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    padding: 0 20px;
+    line-height: 1;
+    z-index: 2;
+}
+.dot_st {
+    white-space: nowrap;
+    overflow: hidden;
+    color: white;
+    text-overflow: ellipsis;
+}
+.best_down_area .bd_info_box .bd_info_down {
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+}.btn_down_s {
+    margin: auto;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url(//movie-img.yes24.com/NYes24/new/all_sprite.png) no-repeat -394px -120px;
+}
+.best_down_area .bd_down_box:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    background: rgba(0, 0, 0, .3);
+}
+.main_best_download.motion .bd_down_list a:nth-child(2) {
+    transform: scale(1) translate(0, 0);
+    opacity: 1;
+    transition: transform .9s, opacity .9s;
+    transition-delay: .5s;
+}.main_best_download.motion .bd_down_list a:nth-child(3) {
+    transform: scale(1) translate(0, 0);
+    opacity: 1;
+    transition: transform .9s, opacity .9s;
+    transition-delay: 0.8s;
+}
+
+.bd_tit2{
+	
+	    color: white;
+    margin: 10px;
+    font-size: 18px;
+}
+.bd_tit3{
+	color: white;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+.showResult{
+	background: red;
+    color: white;
+    padding: 3px 51px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 1px solid black;
+}
+.showResult1{
+   background: rgba(26,26,26,.95);
+    color: white;
+    padding: 3px 51px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 1px solid black;
+}
+.saleWrap {
+	margin-left:12%;
+}
+
+ .snackImg{
+   margin-top: 88px;
+   margin-bottom: 115px;
+   background: url(../images/saleBack1.png) no-repeat;
+       background-size: 1400px 574px;
+    height: 568px;
+   text-align:center;
+ }
+ 
+ .di1 {
+  display:flex;
+  padding: 128px 19px 14px 50px;
+ }
+ 
+ .mi{
+ 	width: 55px;margin: 81px 16px;
+}
+ 
+ 
+ .di2 {
+  display:flex;
+      padding: 43px 1px 12px 221px;
+ }
+ 
+ .m1 {
+  margin-left:21px;
+  display: flex;
+  align-items: center;
+ }
+ 
+ #snackPrice {
+ margin-top: 105px;
+ }
+ 
+ #check1{
+ 	width: 20px;
+    height: 20px;
+ }
+ #check3{
+ 	width: 20px;
+    height: 20px;
+ }
+ .m03 {
+ width:230px;
+ }
+ 
+ 
+ 
+@media screen and (max-width: 630px) {                                          /* 메인 페이지 포스터4 */ 
+ .movieBord {
+   width:100px;
+   
+    }
+    .todayPrice {
+    left:2px !important; 
+    height:505px !important; 
+    }
+    .movie .post-count {
+    width:100px !important;
+    height:95px !important;
+    padding-top: 47px !important;
+    }
+    
+    .movie .post-count .tit input {
+    padding:5px 16px !important;
+    }
+    
+    .onTitle {
+    left:67px !important;
+    top:-16px !important;
+    background-size:450px !important;
+    background-position-x: center !important;
+    background-position-y: 75px !important;
+      padding:238px 170px !important;
+    } 
+    .onTitle p, .onTitle p span {
+    font-size:16px !important;
+    }
+    #backgroundWrap{
+    height: 800px;
+    opacity: 0.3;
+    background: url(../movieImages/steel4.jpg) 0% 0% / cover;
+    }
+    .lay_inner {
+    width:400px !important;
+    }
+    .main_event .eve_img_box.big {
+    width: calc((100% - 60px) / 1) !important;
+    margin:0 0 30px !important;
+    }
+    .main_event .eve_img_box {
+    width: calc((100% - 60px) / 1) !important;
+        margin: 30px 30px 0px 30px !important;
+    }
+    .et {
+    width:100%;
+    }
+    #movieTit span {
+    margin:0 10px !important;
+    }
+    #movieTit {
+    font-size:16px !important;
+    }
+    .snackImg table {
+    background-size:482px !important;
+    padding:0px 36px !important;
+    }
+    .snackImg table td span {
+    font-size: 1px !important;
+    line-height: 25px !important;
+    }
+    .ms {
+    width: 150px !important;
+    }
+    .mi {
+    width:20px !important;
+    margin-top:31px !important; 
+    }
+    .snackImg table td select {
+    width:61px !important;
+    font-size:1px !important;
+    }
+    .m1 {
+    width:111px !important;
+    margin-left: 0px !important;
+    }
+    .m2 {
+    width:69px !important;
+    }
+    .snackImg table{
+    	width: 482px !important;
+    	height: 158px !important;
+    	background-position-y: -40px !important;
+    }
+    .m3 img{
+    	width:0px !important;
+    }
+    .snackImg table td {
+    padding: 0 1px !important;
+    }
+    .snackImg table td input[type=checkbox] {
+    width:13px !important;
+    height:11px !important;
+    }
+    .mm {
+    height:65px !important;
+    }
+    .mm2 {
+    height:67px !important;
+    }
+    .notice_tit2{
+       font-size: 12px !important;
+       margin-left: 0px !important;
+    }
+    .notice_tit{
+       font-size: 17px !important;
+    }
+    .notice_tit3{
+       bottom: 24px !important;
+    }
+    
+    .main_event .main_title{
+    	height: 83px !important;
+    }
+    .main_wrap{
+    	margin: 30px 0 !important;
+    }
+    .m3 img{
+    	width:0px !important;
+    }
+    .m03 {
+       width:0px !important;
+    }
+    .di2 span {
+    font-size: 10px !important;
+    }
+    .di2 {
+      padding: 0px 0px 0px 36px !important;
+    }
+    .saleWrap {
+    margin-left:2% !important;
+    }
+    .snackImg {
+        background-size: 464px !important;
+        height: 183px !important;
+    }
+    .snackImg select {
+    font-size: 10px !important;
+    width:80px !important;
+    }
+    .di1 {
+    padding: 43px 0px 0px 45px !important;
+    height: 70px;
+    }
+    .showResult {
+    padding: 1px 10px !important;
+    }
+    #snackPrice div{
+    	font-size: 12px;
+    	margin: 12px 0 !important;
+    }
+    
+    #check1{
+ 	width: 14px !important;
+    height: 14px !important;
+ }
+ #check3{
+ 	width: 14px !important;
+    height: 14px !important;
+ }
+
+}
+ 
+ 
+ 
+ 
+
+@media screen and (min-width: 631px) and (max-width: 768px) {                     /*모바일*/ 
+ .movieBord {
+   width:100px;
+   
+    }
+    .todayPrice {
+    left:-9px !important; 
+    height:350px !important; 
+    }
+    .movie .post-count {
+    width:100px !important;
+    height:95px !important;
+    padding-top: 47px !important;
+    }
+    
+    .movie .post-count .tit input {
+    padding:5px 16px !important;
+    }
+    
+    .onTitle {
+        left: -36px !important;
+    top: 71px !important;
+    background-size: 631px !important;
+    } 
+    .onTitle p, .onTitle p span {
+    font-size:25px !important;
+    }
+    #backgroundWrap {
+    height:600px !important;
+    }
+    .lay_inner {
+    width:400px !important;
+    }
+    .main_event .eve_img_box.big {
+    width: calc((100% - 60px) / 1) !important;
+    margin:0 0 30px !important;
+    }
+    .main_event .eve_img_box {
+    width: calc((100% - 60px) / 1) !important;
+        margin: 30px 30px 0px 30px !important;
+    }
+    .et {
+    width:100%;
+    }
+    #movieTit {
+    font-size:16px !important;
+    }
+    #movieTit span {
+    margin:0 10px !important;
+    }
+    .snackImg table {
+    background-size:500px !important;
+    }
+    .snackImg table td span {
+    font-size: 1px !important;
+    }
+    .ms {
+    width: 150px !important;
+    }
+    .mi {
+    width:20px !important;
+    margin-top: 44px !important;
+    }
+    .snackImg table td select {
+    width:61px !important;
+    font-size:1px !important;
+    }
+    .m1 {
+    width:130px !important;
+    }
+    .m2 {
+    width:35px !important;
+    }
+    .snackImg table{
+    	width: 510px !important;
+    	height: 262px !important;
+    	background-position-y: -31px !important;
+    }
+    .m3 img{
+    	width:0px !important;
+    }
+    .snackImg table td {
+    padding: 0 1px !important;
+    }
+    .snackImg table td input[type=checkbox] {
+    width:13px !important;
+    height:11px !important;
+    }
+    .mm {
+    height:65px !important;
+    }
+    .notice_tit2{
+       font-size: 12px !important;
+       margin-left: 0px !important;
+    }
+    .notice_tit{
+       font-size: 17px !important;
+    }
+    .notice_tit3{
+       bottom: 24px !important;
+    }
+    .showResult {
+    padding:1px 25px !important; 
+    }
+    .m3 img{
+    	width:90px !important;
+    }
+    .m03 {
+       width:0px !important;
+    }
+    .di2 span {
+    font-size: 11px !important;
+    }
+    .di2 {
+         padding: 0px 0px 0px 46px !important;
+    }
+    .saleWrap {
+    margin-left:2% !important;
+    }
+    .snackImg {
+        background-size: 602px !important;
+        height: 300px !important;
+    }
+    .snackImg select {
+    font-size: 10px !important;
+    width:140px !important;
+    }
+    .di1 {
+    padding: 50px 0px 0px 45px !important
+    }
+    .mb {
+    margin-left:20px !important;
+    }
+}
+ 
+ 
+@media screen and (min-width: 769px) and (max-width: 834px) {   /*메인 페이니 포스터3*/ 
+    .movieBord {
+    width:100px;
+   
+    }
+    .todayPrice {
+    left:100px !important; 
+    height:350px !important; 
+    }
+    .movie .post-count {
+    width:100px !important;
+    height:95px !important;
+    padding-top: 47px !important;
+    }
+    
+    .movie .post-count .tit input {
+    padding:5px 16px !important;
+    }
+    .onTitle {
+    left: 125px !important;
+    top: 60px !important;
+    background-size: 585px !important;
+        padding: 230px 270px !important;
+    } 
+    .onTitle p, .onTitle p span {
+    font-size:25px !important;
+    }
+    #backgroundWrap {
+    height:600px !important;
+    }
+    .lay_inner {
+    width:400px !important;
+    }
+    .main_event .eve_img_box.big {
+    width: calc((100% - 60px) / 1) !important;
+    margin:0 0 30px !important;
+    }
+    .main_event .eve_img_box {
+    width: calc((100% - 60px) / 1) !important;
+    margin: 30px 30px 0px 30px !important;
+    }
+    .et {
+    width:100%;
+    }
+    #movieTit {
+    font-size:16px !important;
+    }
+    .snackImg table {
+    background-size:750px !important;
+    }
+    .snackImg table td span {
+    font-size: 10px !important;
+    }
+    .ms {
+    width: 150px !important;
+    }
+    .mi {
+    width:25px !important;
+    }
+    .snackImg table td select {
+    width:107px !important;
+    font-size:10px !important;
+    }
+    .m1 {
+    width:150px !important;
+    }
+    .m2 {
+    width:50px !important;
+    }
+    .snackImg table{
+    	width: 750px !important;
+    	height: 262px !important;
+    	background-position-y: -31px !important;
+    }
+    .m3 img{
+    	width:110px !important;
+    }
+    .snackImg table td {
+    padding: 0 1px !important;
+    }
+    .snackImg table td input[type=checkbox] {
+    width:13px !important;
+    height:11px !important;
+    }
+    .showResult {
+    padding:1px 25px !important; 
+    }
+    .m3 img{
+    	width:90px !important;
+    }
+    .m03 {
+       width:90px !important;
+    }
+    .di2 span {
+    font-size: 13px !important;
+    }
+    .di2 {
+      padding: 0px 0px 0px 105px !important;
+    }
+    .saleWrap {
+    margin-left:2% !important;
+    }
+    .snackImg {
+        background-size: 745px 320px !important;
+    }
+    .snackImg select {
+    font-size: 10px !important;
+    width:140px !important;
+    }
+    .di1{
+    	    padding: 45px 19px 0px 109px !important;
+    }
+} 
+ 
+ 
+ 
+ 
+ 
+ 
+@media screen and (min-width: 835px) and (max-width: 991px) {   /*태블릿 세로*/ 
+   .movieBord {
+   width:100px;
+   
+    }
+    .todayPrice {
+    left:177px !important; 
+    height:160px !important; 
+    bottom: 0 !important;
+    top:543px !important;
+    }
+    .movie .post-count {
+    width:100px !important;
+    height:95px !important;
+    padding-top: 47px !important;
+    }
+    
+    .movie .post-count .tit input {
+    padding:5px 16px !important;
+    }
+    .onTitle {
+    left: 200px !important;
+    top: 180px !important;
+    background-size: 607px !important;
+    padding: 157px 306px !important;
+    } 
+    .onTitle p, .onTitle p span {
+    font-size:25px !important;
+    }
+    #backgroundWrap {
+    height:603px !important;
+    }
+    .lay_inner {
+    width:800px !important;
+    }
+    .main_event .eve_img_box.big {
+    width: calc((100% - 60px) / 2) !important;
+    }
+    .main_event .eve_img_box {
+    width: calc((100% - 60px) / 2) !important;
+    }
+    .et {
+    width:100%;
+    }
+    #movieTit {
+    font-size:16px !important;
+    }
+    .snackImg table {
+    background-size:750px !important;
+    }
+    .snackImg table td span {
+    font-size: 13px !important;
+    }
+    .ms {
+    width: 150px !important;
+    }
+    .mi {
+    width: 25px !important;
+        margin: 70px 3px !important;
+    }
+    .snackImg table td select {
+    width:107px !important;
+    font-size:10px !important;
+    }
+    .m1 {
+    width:150px !important;
+    }
+    .m2 {
+    width:50px !important;
+    }
+    .snackImg table{
+    	width: 750px !important;
+    	height: 262px !important;
+    	background-position-y: -31px !important;
+    }
+    .showResult {
+    padding:1px 30px !important; 
+    }
+    .m3 img{
+    	width:110px !important;
+    }
+    .m03 {
+    width:0px !important;
+    }
+    .snackImg table td {
+    padding: 0 1px !important;
+    }
+    .snackImg table td input[type=checkbox] {
+    width:13px !important;
+    height:11px !important;
+    }
+    .m3 img{
+    	width:130px !important;
+    }
+    .m03 {
+       width:130px !important;
+    }
+    .di2 span {
+    font-size: 14px !important;
+    }
+    .di2 {
+      padding: 0px 0px 0px 63px !important;
+    }
+    .saleWrap {
+    margin-left:9% !important;
+    }
+    .snackImg {
+      background-size: 762px 339px !important;
+      height:410px !important;
+    }
+      .snackImg select {
+    font-size: 12px !important;
+    width:93px !important;
+    }
+    .di1{
+    	padding:73px 19px 14px 30px !important;
+    }
+    .mod{
+        top: 500px !important;
+    left: 181px !important;
+    }
+    .stext {
+    font-size: 14px !important;
+    line-height: 42px !important;
+    color: white !important;
+    margin-left: 2px !important;
+    }
+    .dlrj {
+    font-size: 12px !important;
+    }
+} 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ @media screen and (min-width: 992px) and (max-width: 1049px) {    /*메인 페이지 포스터 2*/
+   .movieBord {
+   width:150px;
+   
+    }
+    .todayPrice {
+    left:82px !important; 
+    }
+    .movie .post-count {
+    width:151px !important;
+    height:143px !important;
+    padding-top: 71px !important;
+    }
+    
+    .movie .post-count .tit input {
+    padding:5px 35px !important;
+    }
+    .onTitle {
+    left: 240px !important;
+    top: 57px !important;
+    } 
+    .lay_inner {
+    width:800px !important;
+    }
+    .main_event .eve_img_box.big {
+    width: calc((100% - 60px) / 2) !important;
+    }
+    .main_event .eve_img_box {
+    width: calc((100% - 60px) / 2) !important;
+    }
+    .et {
+    width:1000px;
+    }
+    .snackImg table {
+    background-size:990px !important;
+    }
+    .snackImg table td span {
+    font-size: 17px !important;
+    }
+    .ms {
+    width: 150px !important;
+    }
+    .mi {
+    width:50px !important;
+    }
+    .snackImg table td select {
+    width:180px !important;
+    }
+    .m1 {
+    width:195px !important;
+    }
+    .m2 {
+    width:50px !important;
+    }
+    .snackImg table{
+    	width: 1000px !important;
+    	height: 365px !important;
+    	background-position-y: -40px !important;
+    }
+    .m3 img{
+    	width:160px !important
+    }
+    .m03 {
+       width:160px !important;
+    }
+    .m1 span {
+    font-size: 18px !important;
+    }
+    .di2 {
+      padding: 9px 0px 0px 63px !important;
+    }
+    .saleWrap {
+    margin-left:9% !important;
+    }
+    .snackImg {
+        background-size: 908px !important;
+    }
+    .di1 {
+    padding: 72px 17px 0px 62px !important;
+    }
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ @media screen and (min-width: 1050px) and (max-width: 1199px) {    /*태블릿 가로*/ 
+   .movieBord {
+   width:150px;
+   
+    }
+    .todayPrice {
+    left:160px !important; 
+    }
+    .movie .post-count {
+    width:151px !important;
+    height:143px !important;
+    padding-top: 71px !important;
+    }
+    
+    .movie .post-count .tit input {
+    padding:5px 35px !important;
+    }
+    #backgroundWrap {
+    background: url(../movieImages/steel16.jpg) 46% 0% / cover;
+    }
+    .onTitle {
+    left: 301px !important;
+    top: 68px !important;
+    } 
+    .lay_inner {
+    width:800px !important;
+    }
+    .main_event .eve_img_box.big {
+    width: calc((100% - 60px) / 2) !important;
+    }
+    .main_event .eve_img_box {
+    width: calc((100% - 60px) / 2) !important;
+    }
+    .et {
+    width:1000px;
+    }
+    .snackImg table {
+    background-size:990px !important;
+    }
+    .snackImg table td span {
+    font-size: 17px !important;
+    }
+    .ms {
+    width: 150px !important;
+    }
+    .mi {
+    width:50px !important;
+    }
+    .snackImg table td select {
+    width:180px !important;
+    }
+    .m1 {
+    width:195px !important;
+    }
+    .m2 {
+    width:50px !important;
+    }
+    .snackImg table{
+    	width: 1000px !important;
+    	height: 365px !important;
+    	background-position-y: -40px !important;
+    }
+    .m3 img{
+    	width:160px !important
+    }
+    .m03 {
+       width:160px !important;
+    }
+    .m1 span {
+    font-size: 18px !important;
+    }
+    .di2 {
+      padding: 14px 0px 0px 82px !important;
+    }
+    .saleWrap {
+    margin-left:14% !important;
+    }
+    .snackImg {
+        background-size: 908px !important;
+    }
+    .di1{
+    	padding: 68px 19px 0px 84px !important;
+    	
+    }
+ 
+ }
+ 
+ 
+ 
+ 
+ @media screen and (min-width: 1199px) and (max-width: 1434px) {            /*메인 페이지 포스터 전용*/
+   .movieBord {
+   width:150px;
+   
+    }
+    .todayPrice {
+    left:300px !important; 
+    }
+    .movie .post-count {
+    width:151px !important;
+    height:143px !important;
+    padding-top: 71px !important;
+    }
+    
+    .movie .post-count .tit input {
+    padding:5px 35px !important;
+    }
+    .onTitle {
+    left: 450px !important;
+    top: 65px !important;
+    }
+    .lay_inner {
+    width:800px !important;
+    }
+    .main_event .eve_img_box.big {
+    width: calc((100% - 60px) / 2) !important;
+    }
+    .main_event .eve_img_box {
+    width: calc((100% - 60px) / 2) !important;
+    }
+    .et {
+    width:1000px;
+    }
+    .snackImg table {
+    background-size:990px !important;
+    }
+    .snackImg table td span {
+    font-size: 17px !important;
+    }
+    .ms {
+    width: 150px !important;
+    }
+    .mi {
+    width:50px !important;
+    }
+    .snackImg table td select {
+    width:180px !important;
+    }
+    .m1 {
+    width:195px !important;
+    }
+    .m2 {
+    width:50px !important;
+    }
+    .snackImg table{
+    	width: 1000px !important;
+    	height: 365px !important;
+    	background-position-y: -40px !important;
+    	
+    }
+    .m3 img{
+    	width:160px !important;
+    }
+    .m03 {
+       width:160px !important;
+    }
+    .m1 span {
+    font-size: 18px !important;
+    }
+    .di2 {
+      padding: 35px 0px 0px 63px !important;
+    }
+    .saleWrap {
+    margin-left:19% !important;
+    }
+    .snackImg {
+        background-size: 908px !important;
+    }
+    .di1 {
+    padding: 73px 19px 14px 73px !important;
+	}
+	.di2 {
+    padding: 0px 0px 0px 63px !important;
+	}
+    
+} 

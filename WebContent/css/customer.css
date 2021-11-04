@@ -1,0 +1,334 @@
+.tab_wrap li{
+	width: 25%;
+    float: left;
+    margin: auto;
+    text-align: center;
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #CCC;
+    font-size: 15px;
+    color: #7F7F7F;
+}
+.noticeTable{
+	width: 1400px;
+	text-align: center;
+}
+.noticeTable th{
+	border-bottom: 1px solid #BBBBBB;
+	padding: 13px;
+}
+.noticeTable td{
+	border-bottom: 1px solid #ccc;
+	padding: 13px;
+}
+.noticeView{
+	width: 1400px;
+}
+.noticeView th, .noticeView td{
+	font-family: sans-serif;
+	padding: 13px;
+}
+.noticeView td{
+	text-align: left;
+	border-bottom: 1px solid #ccc
+}
+.noticeView th{
+	border-bottom: 1px solid #BBBBBB;
+	border-top: 1px solid lightgray;;
+}
+.noticeView p{
+	font-family: sans-serif;
+	line-height: 4;
+}
+
+.btnNoticeList{
+	padding: 13px 72px;
+	color: white;
+	background: #414141;
+	
+}
+
+.con_top{
+	position: relative;
+    background: rgb(221,123,2,0.1);
+    padding: 35px 0;
+    text-align: center;
+}
+.ico_list_txt.qus{
+	background-image: url(../images/ic_qus.png);
+    background-position: top 5% left;
+}
+.ico_list_txt {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: top 50% left;
+    min-width: 250px;
+    line-height: 1.4;
+    padding-left: 55px;
+    text-align: left;
+    font-size: 15px;
+}
+.list_txt{
+	font-size: 13px;
+}
+.list_txt > li {
+    line-height: 1.4;
+    margin: 0 0 5px 8px;
+    text-indent: -8px;
+    color: #333;
+}
+.contxt_type1{
+	    margin: 20px 0 50px 0;
+}
+.tit{
+	padding-bottom: 5px;
+    font-size: 15px;
+    color: #000;
+}
+.desc{
+	font-size: 12px;
+    color: #707070;
+    line-height: 1.3;
+}
+.group_right{
+	float: right;
+    margin-top: 4px;
+}
+.txt_req{
+	font-size: 14px;
+    color: #FF243E;
+}
+.tbl_form{
+	border-top: 1px solid #BBBBBB;
+    margin-bottom: 60px;
+}
+.tbl_form td{
+	padding: 13px 0;
+	border-bottom: 1px solid #EFEFEF;
+	text-align: center;
+}
+
+#file{
+	/* position: absolute; */
+    /* width: 1px;
+    height: 1px; */
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+.bx_file label {
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 46px;
+    font-size: 14px;
+    color: #000000 !important;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.btn_wrap{
+	margin: 60px 0;
+    text-align: center;
+}
+.btn_col3{
+	display: inline-block;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #000000;
+    font-size: 14px;
+    color: #000000 !important;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #ffffff;
+    height: 45px;
+    line-height: 43px;
+    padding: 0 50px;
+}
+.btn_col2{
+	display: inline-block;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #414141;
+    font-size: 14px;
+    color: #ffffff !important;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #414141;
+	height: 45px;
+    line-height: 43px;
+    padding: 0 50px;
+}
+.btn_col3:hover{
+	
+background:#EAE6E5;
+}
+.btn_col2:hover{
+	background: #A4A4A3;
+}
+
+.noQes{
+	
+	height: 300px;
+    line-height: 300px;
+    text-align: center
+}
+.QesId{
+	position: relative;
+    background: rgb(221,123,2,0.1);
+    padding: 35px 0;
+    text-align: center;
+}
+.tarea{
+	text-align:left;width:1314px; background-color: #F8F8F8;border-color:#DDD;padding: 10px;
+	height: 300px;
+}
+
+.faq_icon{
+	position: relative;
+    background:rgb(221,123,2,0.1);
+    padding: 12px 13px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    text-align: center;
+}
+.faq_icon button{
+	    display: inline-block;
+    border: 1px solid #C1BDBD;
+    border-radius: 4px;
+    background: transparent no-repeat top 23px center;
+    width: 98px;
+    padding: 57px 0 19px;
+    font-size: 13px;
+    text-align: center;
+    -webkit-border-radius: 4px;
+}
+
+.faq_icon > ul >li{
+	    display: inline-block;
+    list-style: none;
+    margin:0 5px 0 5px;
+}
+.faq_icon > ul > li.hover, .faq_icon > ul > li.focus,
+.faq_icon > ul > li.active{
+	background-color: #fff;
+    border-color: #C9C9C9;
+    border: 1px solid;
+}
+.faq_icon .ico_01{
+	background-image: url(../custom/ic_faq_cate_01.png);
+    background-position: center 25px;
+}
+.faq_icon .ico_02{
+	background-image: url(../custom/ic_faq_cate_06.png);
+    background-position: center 25px;
+}
+.faq_icon .ico_03{
+	background-image: url(../custom/ic_faq_cate_05.png);
+    background-position: center 25px;
+}
+.faq_icon .ico_04{
+	background-image: url(../custom/ic_faq_cate_08.png);
+    background-position: center 25px;
+}
+.faq_icon .ico_05{
+	background-image: url(../custom/ic_faq_cate_04.png);
+    background-position: center 25px;
+}
+
+
+.faqTable{
+	    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 0;
+    text-align: left;
+}
+.faqTable thead tr th {
+    border-bottom-color: #BBBBBB;
+    text-align: center;
+}
+
+.faqTable th, .faqTable tr td{
+	position: relative;
+    border-bottom: 1px solid #EEEEEE;
+    padding: 15px 0;
+    font-size: 15px;
+    font-family:sans-serif;
+    line-height: 24px;
+}
+.qna{
+	    overflow: hidden;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #FF7787;
+        font-family: "Roboto";
+    font-size: 18px;
+    color: #FFF;
+}
+.qnaBtn{
+	    content: '';
+    float: right;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: -10px;
+    vertical-align: middle;
+}
+.ana{
+	content: "A";
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #FFF;
+    background-color: #7BDBD1;
+    overflow: hidden;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 50%;
+    text-align: center;    
+}
+
+.noti {
+	top: 1px;
+    position: relative;
+    right: 6px;
+}
+.notice03 {
+    height: 250px;
+    background: url(../images/noticeback3.jpg);
+    background-size: auto;
+    opacity: 0.8;
+}
+
+.rhror { 
+	padding:100px;
+	text-align:center;
+	display: none;
+}
+
+@media screen and (min-width: 835px) and (max-width: 991px) {
+	.container06 {
+	width:100% !important;
+	}
+	.noticeTable {
+	width:100% !important;
+	}
+	.noticeView {
+	width:100% !important;
+	}
+}

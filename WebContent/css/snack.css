@@ -1,0 +1,366 @@
+
+/*                snack          */
+
+
+		.popcon {
+         display:flex;
+         margin-left:10%;
+         }
+         .snack01 {
+         margin-left:10%;
+         }
+          .snack02 {
+         margin-left:10%;
+         }
+          .snack03 {
+         margin-left:10%;
+         }
+          .snacktext {
+         position:relative;
+         clear: both;
+         }
+         .te {
+         position:absolute;
+         left:0;
+         bottom:0px;
+         margin-left:15%;
+         }
+         
+         .snacktext h2{
+         	text-align: left;
+         }
+         
+         .tx{
+          position:absolute;
+         left:0;
+         bottom:0px;
+         margin-left:7.5%;
+         color: #868686;
+   		 font-size: 19px;
+         }
+         .text-s{
+         	text-align: center;
+         	font-size: 18px;
+         }
+		.text-s h5 span{
+			margin: 0 20px;
+		}
+		.snack{
+		
+		}
+		.snack a{
+			margin: 17px 18px 50px 37px;
+			border:2px solid #DEDEDE;
+			border-top-left-radius: 16px;
+    		border-top-right-radius: 16px;
+			float: left;
+		}
+		
+		.category{
+	font-family: sans-serif;
+    border: rgba(26,26,26,.95);
+/*     background: rgba(26,26,26,.95); */
+    padding:2px 4PX;
+    margin: auto;
+    text-align: center;
+    width: 1400px;
+    border-radius: 20px;
+}
+		
+		.snack a:hover{
+			border:3px solid #9c7c07;
+		}
+		.snack1{
+			width: 234px;
+		}
+		.snack2{
+			text-align: center; padding: 12px;border-top: 2px solid #DEDEDE;
+		}
+		
+		.snack2 span{
+			font-family: sans-serif; font-size: 14px;
+		}
+		.snack3{
+			padding: 12px; text-align: center;height: 40px;line-height: 40px;
+		}
+		
+		.ctgFixed{
+			position: fixed;
+		    left: 85%;
+		    top: 52%;
+		}
+		
+		.ctgFixed li{
+			list-style: url("../images/bullet_orange.png");
+			line-height: 2;
+		}
+		
+		
+		
+		
+		/*             snackDetail             */
+		
+		
+		
+		.snackImg{
+			float: left;
+			width: 500px;
+			text-align: center;
+			margin-left: 149px;
+		}
+		.snackInfo{
+			float: left;
+		}
+		
+		.snackInfo table{
+		    width: 500px;
+	 		line-height: 4;
+		}
+		
+		.bx-wrapper{
+			max-width: 70% !important;
+			margin: auto !important;
+			display: inline-block !important; 
+			background:url('../images/gnb-bg.png') !important;
+			border: none !important;
+		}
+		.bx-viewport{
+			height:280px !important;
+		}
+		.bx-wrapper img{
+			margin: auto !important;
+		}
+		
+		
+		.navHr{
+				background: url("../images/navHr.png");
+				background-size: 10px;
+			    height: 10px;
+			}
+			
+		.snackPrice{
+			border: 1px solid #E7E7E7;
+			width: 100%;
+			padding: 20px 0;
+			text-align: center;
+		}
+		.snackPrice span{
+			text-align: center;
+			margin: 0 20px;
+		}
+		
+		#plus{
+			padding: 10px;
+			border: none;
+			background:url('../images/gnb-bg.png');
+			font-size: 20px;
+			cursor: pointer;
+		}
+		#minus{
+			padding: 10px;
+			border: none;
+			background:url('../images/gnb-bg.png');
+			font-size: 30px;
+			cursor: pointer;
+		}
+		
+		#snackQty{
+			text-align: center;
+			background: #EEE9E9;
+			border: none;
+		}
+		
+		.btnCart{
+			padding: 14px 50px;
+		    border: 1px solid #524c4a;
+		    color: #524c4a;
+		    margin: 0 5px;
+		    cursor: pointer;
+		   /*  background: antiquewhite; */
+			
+		}
+		.btnCart:hover{
+		/* 	background: #F9E79F; */
+		}
+		.btnGift{
+			padding: 14px 50px;
+		    border: 1px solid #524c4a;
+		    color: #524c4a;
+		    margin: 0 5px;
+		    cursor: pointer;
+		    background: #e4bc74;
+			
+		}
+		.btnGift:hover{
+			/* background: #D3D3D3; */
+		}
+		.btnOrder{
+			padding: 14px 52px;
+		    background: #524c4a;
+		    color: white;
+		    margin: 0 5px;
+		     border: 1px solid #524c4a;
+			cursor: pointer;
+		}
+		.btnOrder:hover{
+			background: #675f5d;
+			
+		}
+		
+		
+		
+		
+		/*                       incart                     */
+	
+	
+	
+		.cartTable{
+			width: 1400px;
+			text-align: center;
+			border-top: 1px solid black;
+		}		
+		
+		.cartTable tr{
+			line-height: 3;
+		}
+		.cartTableFirst{
+		 background:rgba(26,26,26,.95);
+			
+		}
+		.cartTableFirst td{
+			color: white;
+		}
+		.snackPriceTable{
+			width: 1400px;
+			text-align: center;
+			border-top: 1px solid black;
+		}
+		
+		.snackPriceTable tr{
+			line-height: 3;
+		}
+		.snackPriceTable td{
+			padding: 0 3px;
+		}
+		.btnSnackBuy{
+			padding: 20px 80px;
+		    border-radius: 13px;
+		    border: 1px solid #524c4a;
+		    background: #524c4a;
+		    color: white;
+		    margin: 0 20px;
+			cursor: pointer;
+		}
+		
+		.btnSnackBuy:hover{
+			background: #675f5d;
+		}
+		.btnSnackBuy1{
+			padding: 20px 80px;
+		    border-radius: 13px;
+		    border: 1px solid #524c4a;
+		    background: #fff;
+		    color: #524c4a;
+		    margin: 0 20px;
+		    cursor: pointer;
+		}
+		
+		.btnSnackBuy1:hover{
+			/* background: #F9E79F; */
+			
+		}
+		.btnSnackBuy2{
+			padding: 20px 80px;
+		    border-radius: 13px;
+		    border: 1px solid #524c4a;
+		    background: #e4bc74;
+		    color: #524c4a;
+		    margin: 0 20px;
+		    cursor: pointer;
+		}
+		
+		.btnSnackBuy2:hover{
+			/* background: #D3D3D3; */
+		}
+		
+		.btnDeleteCart{
+			width: 100px; 
+			padding: 9px 0px;
+    		border-radius: 8px;
+			
+		}
+		
+		.btnDeleteCart:hover{
+			background: #524c4a;
+			color: white;
+		}
+		
+		
+		
+		
+		
+		
+		/*          gift            */
+		
+		.btnIdCheck{
+			padding: 12px 56px;
+			background: #524c4a;
+			color:white;
+			cursor: pointer;
+		}
+		.btnReserveGo3{
+	  		padding: 22px 110px;
+		    background: #524c4a;
+		    color: white;
+		    font-size: 20px;
+		    border-radius: 10px;
+		    cursor: pointer;
+		    border: none;
+		    margin-right: 36px;
+		}
+
+.backi {
+	width:100% !important;
+	background:url("../images/s1.png");
+	height: 296px;
+}
+
+.rhksfka {
+	position: relative;
+    width: 60%;
+    line-height: 2;
+    top:28px;
+    left: 29px;
+    border: solid #9c7c07;
+    float: left;
+    padding: 77px 41px;
+    border-radius: 7%;
+}
+
+@media screen and (min-width: 835px) and (max-width: 991px) {  
+ .container {
+ width:100% !important;
+ }
+ .rhksfka {
+ width: 45% !important;
+ }
+ .ctgFixed {
+ left: 92% !important;
+ top: 23% !important;
+ }
+ .backi {
+ background-position-x: -445px !important;
+ }
+ .snackImg {
+ margin-left: -57px !important;
+ }
+ .cartTable {
+ width:100% !important;
+ }
+ .scv {
+ width:100% !important;
+ }
+ .snackPriceTable {
+ width:100% !important;
+ }
+}

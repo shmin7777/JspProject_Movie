@@ -1,0 +1,541 @@
+
+.reserveCon{
+	background: blanchedalmond;
+    height: 568px;
+    width: 100%;
+    margin-bottom: 61px;
+}
+
+
+/* .movieImg{
+	float: left;
+	width: 45%;
+	margin-top: 4%;
+} */
+.reserveform{
+	width: 100%;
+	float: left;
+	
+	/* margin-top: 3%; */
+}
+.reserveform form{
+	text-align: left;
+    line-height: 45px;
+    margin-left: 2%;
+    border: 2px solid black;
+    padding: 20px 28px;
+    border-radius: 15px
+	
+}
+.reserveform input{
+	padding: 4 10;
+}
+.reserveform select{
+	padding: 4 10;
+}
+.td1{
+	color: #524c4a;
+}
+.reserveMain_tit{
+	    float: left;
+    border: 2px solid red; */
+    width: 94%;
+    margin-left: 1px;
+    height: 273px;
+    padding: 20px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+	
+}
+.reserveMain_tit li{
+	line-height: 43px;
+}
+.reserveMain_tit li a{
+	border-bottom: 1px solid black;
+}
+.btnReserveGo{
+	padding: 10 25;
+	border: 2px solid #c9a524;
+	border-radius:15px;
+	color: #c9a524;
+	background: white;
+}
+.btnReserveGo:hover {
+	background:#524c4a;
+	color: white;
+	border: 2px solid white;
+}
+.btnReserveGo2{
+	padding: 8px 40px;
+    margin-top: -49px;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: black;
+    background: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* .btnReserveGo2:hover {
+	background:#9c7c07;
+	color: white;
+	border: 2px solid white;
+} */
+
+.reserveBottom{
+	background: lightgray;
+	
+	
+}
+.bottom1{
+	width: 1400px;
+	margin: 0 auto;
+	padding: 12;
+}
+.bottom1 .bottom_tit{
+	margin-left: 30px;
+    line-height: 2;
+}
+.bottom1_1{
+	width: 33%;
+	border-right: 1px dotted gray;
+	float: left;
+	display: flex;
+}
+.bottom1_2{
+	width: 33%;
+    float: left;
+    text-align: center;
+    height: 150px;
+    line-height: 51px;
+    margin-top: 10px;
+    font-size: 35px;
+    border-right: 1px dotted gray;
+}
+.bottom1_3{
+	text-align: center;
+}
+
+.btnReserveInfo{
+	padding: 5px;
+    cursor: pointer;
+    margin: 0 3px 8px 3px;
+        
+    border-radius: 8px;
+	
+}
+
+.remain_box1{
+	
+	width: 29%;
+	text-align:center;
+	float: left;
+}
+.remain_box2{
+	width:68%;
+    float: left;
+    /* margin-left: 55px; */
+}
+.remain_box3{
+	
+	width: 15%;
+    position: absolute;
+    right: 11px;
+}
+.re_title{
+	background: rgba(26,26,26,.95);
+	color: white;
+	    font-size: 20px;
+}
+
+/*   reserveMain        */
+
+
+
+
+
+
+/*  reserveSeat  */
+
+.table {
+margin: auto;
+    border: 2px solid;
+    border-radius: 10px;
+ }
+ .sc {
+ background-color:#FFFFFF;
+ }
+ .row {
+/*  background-color:#FFFFFF; */
+ }
+ .seat{
+ background-color:#FFF8DC;
+ }
+ .seat-result{
+ background-color:#FFF8DC;
+ margin-left:5%;
+ }
+ .allseat{
+ display:flex;
+ margin-bottom: 61px;
+ }
+
+/*   .info-area {
+ display:flex;
+ } */
+ 
+ .seat-text > p{
+ margin-left:20%;
+ margin-top:20%;
+ 
+ }
+ .seat-text {
+ float:left;
+ width:33%;
+ }
+ .seat-img {
+ float:left;
+ width:33%;
+  margin-left:20%;
+ margin-top:20%;
+ }
+ .tit{
+  margin-left:5%;
+ margin-top:5%;
+ }
+ 
+ 
+  .s_select td{
+ 	margin: 10;
+ }
+ 
+ 
+ 
+ 
+ /*           reservePay              */
+
+.box-radio-input input[type="radio"]{
+display:none;
+}
+
+.box-radio-input input[type="radio"] + span{
+display:inline-block;
+background:none;
+border:1px solid #dfdfdf; 
+padding:0px 10px;
+text-align:center;
+height:35px;
+line-height:33px;
+font-weight:500;
+cursor:pointer;
+border-radius: 10px;
+}
+
+.box-radio-input input[type="radio"]:checked + span{
+border:1px solid #c5c9c9;
+background:#c5c9c9;
+color:#fff;
+border-radius: 10px;
+}
+
+.rd {
+
+}
+ 
+.reservePayForm{
+	text-align: left;
+	font-size: 20px;
+	/* background-color:blanchedalmond; */
+	padding: 10;
+	float: left;
+	width: 74%;
+} 
+.resetInput{
+	padding: 5px 12px;
+    background: #e4bc74;
+    /* color: #fff; */
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+}
+.step{
+	background: rgb(0,0,0,0.6);
+	color: white;
+	padding: 12px;
+	margin-bottom: 5px;	
+	border-radius: 10px;
+}
+ 
+.open{
+	padding: 12px;
+	margin-bottom: 33px;
+	border: 2px solid rgb(0,0,0,0.2);
+    border-radius: 10px;
+	
+}
+.open img{
+	float: right;
+	
+}
+.content{
+	margin-bottom: 33px;
+}
+.reservePayment{
+	float: left;
+	width: 21%;
+	margin: 0 15px;
+	
+}
+.reservePayment1{
+	border: 2px solid black;
+	border-radius: 10px;
+	 margin: 10 0 20 0;
+	font-size: 20x;
+}
+.reservePayment1_1{
+	padding: 20;
+	text-align: center;
+}
+.reservePayment1_2{
+	text-align: right;
+	background: rgb(0,0,0,0.6);
+	color: white;
+	padding: 20;
+}
+.reservePayment1_3{
+	padding: 20;
+	background: rgb(0,0,0,0.6);
+	border-bottom: 2px solid black;
+}
+.reservePayment1_4{
+	padding: 20;
+	background: rgb(0,0,0,0.6);
+	text-align: right;
+	color: white;
+}
+.reservePayment1_5{
+	padding: 20;
+	background: rgb(0,0,0,0.6);
+	
+}
+.reservePayment1_6{
+	padding: 20;
+	background: rgb(0,0,0,0.6);
+	 color: white;
+	text-align: right;
+}
+
+#totalMinus{
+	color: white;
+}
+#totalPrice{
+	color: white;
+}
+ #oprice{
+ 	color: white;
+ }
+ #payTable1 td{
+ 	padding: 10;
+ 	    font-size: 18px;
+ }
+ 
+ #payTable2 td{
+ 	padding: 10;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+
+/*        reserveMovieComplete                */
+
+.MovieCompleteTable{
+	text-align: center; margin: auto;
+	    width: 1001px;
+    float: left;
+	
+}
+
+.MovieCompleteTable hr{
+	border: 1px solid #EBE9E9;
+	margin-top: 20;
+}
+
+.MovieCompleteTable td{
+	padding: 0 20;
+	
+}
+
+.movieCompletePoint{
+    margin-top: 8px;
+    float: left;
+   margin-left: 86px;
+}
+.movieCompletePoint span{
+	    color: #524c4a;
+}
+.movieCompletePoint >div{
+    margin-right: 27px;
+    padding: 21px 37px;
+    border-radius: 20px;
+    margin: auto;
+    
+}
+
+.payTable{
+	width: 1400px;
+    margin: auto;
+    margin-top: 30;
+    text-align: center;
+}
+.payTable1{
+	background: #e4bc74;
+}
+.payTable td{
+	padding: 19px 12px;
+}
+
+.btnBack{
+	margin-top: 83px;
+    padding: 16px 19px;
+    border: 2px solid #524c4a;
+    color: white;
+    background: #524c4a;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+
+
+.com_table{
+	float: left;
+	width: 33%;
+	
+	}
+	.com_wrap{
+		height: 470px;
+   
+   padding: 41px 28px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px 3px rgb(0 0 0 / 10%);
+   background: rgb(246,235,201);
+	}
+
+.com_table .under{
+	padding:10px 0;
+	width: 50%;
+	margin: auto;
+	border-bottom: 1px solid lightgray;
+}
+
+.dlqps {
+	    text-align: center !important;
+    height: 296px;
+    background: url(../images/h1.png) no-repeat;
+    text-align: center;
+    background-size: 100% 100%;
+}
+
+
+
+/* 
+
+ 
+                    reserveInfo */
+                    
+.gradeBox{
+	
+	
+}   
+
+@media screen and (min-width: 835px) and (max-width: 991px) { 
+	.allbox {
+	width:100% !important;
+	padding: 30px 0px 0px 0px !important;
+	}
+	.container {
+	width:95% !important;
+	}
+	.bottom1 {
+	width:97% !important;
+	}
+	.tomo {
+	width:100% !important;
+	margin-top: 70px !important;
+	}
+	.reserveMain_tit {
+	height: 651px !important;
+	}
+	.ht {
+	margin-top: 27px !important;
+	}
+	.ult {
+	margin-top: 87px !important;
+	}
+	.reim {
+	height: 22% !important;
+	}
+	.btnReserveGo2 {
+	/* padding: 58px 40px !important; */
+	}
+	.alse {
+	width:100% !important;
+	}
+	.reservePayment {
+	width: 20% !important;
+	}
+	#payTable1 td {
+	padding: 6px !important;
+	}
+	#payTable1 td input[type=text]{
+	width:75px;
+	}
+	.payTable {
+	width: 100% !important;
+	}
+	.moim {
+	width: 305px !important;
+    height: 467px !important;
+	}
+	.com_wrap {
+	padding: 41px 10px !important;
+	}
+	.a {
+	line-height: 59px !important;
+	}
+	.movieCompletePoint {
+	margin-left: 29px !important;
+	}
+    .movieCompletePoint h2 {
+	font-size:20px !important;
+	} 
+	.movieCompletePoint >div {
+	padding: 24px 5px !important;
+	}
+	.difont {
+	font-size: 19px !important;
+	}
+	.himg1 {
+   width:100% !important;
+   }
+   .himg2 {
+   width:100% !important;
+   }
+   .remain_box3{
+   	display: none !important;
+   }
+   .bottom1_1 {
+   	width: 37% !important;
+   }
+   .bottom1_2 {
+   	width: 31% !important;
+   }
+   .btnReserveGo3{  
+     padding: 22px 57px !important;
+   	    margin-right: 23px !important;		
+   }
+}          
+       
+                    

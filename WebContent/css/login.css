@@ -1,0 +1,158 @@
+.table {
+    border-collapse:collapse; font-size:9pt;
+}
+
+.loginbox {
+    padding: 100px 70px;
+    box-sizing: border-box;
+    margin: 90px auto;
+    text-align: center;
+    width: 541px;
+   
+}
+
+.loginbox h1 {
+    width: 100%;
+    height: 53px;
+    font-size: 28px;
+    color: rgba(26,26,26,.95);
+    border-bottom: 1px solid rgba(26,26,26,.95);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position:3px 5px;
+    margin-bottom: 19px ;
+    
+}
+
+#loginid, #loginpw {
+    width: 300px;
+    height: 25px;
+    border: 1px solid#999;
+    background-origin: padding-box;
+    margin-bottom: 10px;
+    
+}
+
+.labelid {
+    font-size: 14px;
+    color: #666;
+    margin-left: 15px;
+    margin-right: 22px;
+}
+
+.labelpw {
+    font-size: 14px;
+    color: #666;
+    margin-left: 15px;
+    margin-right: 8px;
+}
+
+.search {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px dashed#999;
+    background-origin: padding-box;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 28px;
+    
+    
+}
+
+.search span {
+    font-size: 11px;
+    color:#999;
+}
+
+.search a {
+    font-size: 12px;
+    text-decoration:none;
+    background-color:#333;
+    color: #fff;
+    padding: 3px 5px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+.btnwrap{
+    width: 100%;
+    text-align: center;
+    margin-top: 32px;
+    margin-left: 50px;
+}
+
+.btnwrap label{
+    position: relative;
+    left: -999em;
+}
+
+.btnwrap a{
+    width: 129px;
+    height: 35px;
+    background-color: #999;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+#loginbtn{
+    width: 129px;
+    height: 35px;
+    border: none;
+    background-color: #524c4a;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    top: 1px;
+    cursor: pointer;
+}
+
+.confoot h3{
+	display: inline;
+    margin: 30px;
+}
+.login-wrapper{
+	background: url("images/cutton.jpg") no-repeat;
+    margin: auto;
+    width: 1000px;
+    border-radius: 15px;
+    height: 615px;
+}
+
+.hall {
+	width:100%;
+	background:url("../images/e1.png") no-repeat;
+	background-size: 100% 100%;
+	
+   /*  background-position-y: -415px; */
+   /*  height: 265px;
+    opacity: 0.8; */
+}
+
+.gkfdls {
+	height: 296px;
+	text-align:center;
+}
+
+@media screen and (min-width: 835px) and (max-width: 991px) { 
+	.container {
+	width:100% !important;
+	}
+	.eve01 > a > img {
+	width:400px !important;
+	}
+	.brr {
+	width:100% !important;
+	}
+	.scv1 {
+	width:100% !important;
+	margin:0px !important;
+	}
+}
